@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Code, Palette, Music, BookOpen, Award, Users, Search as SearchIcon, Zap, Shield, Sparkles } from 'lucide-react';
-import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
+import ImageWithFallback from '../components/figma/ImageWithFallback'
 import { getCurrentUser } from '../lib/api';
 import { motion } from 'motion/react';
 
