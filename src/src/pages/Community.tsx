@@ -1,7 +1,8 @@
 import React from 'react';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
 import { Users, MessageSquare } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion"
+
 
 const COMMUNITIES = [
   {

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Code, Palette, Music, BookOpen, Award, Users, Search as SearchIcon, Zap, Shield, Sparkles } from 'lucide-react';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
 import { getCurrentUser } from '../lib/api';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion"
+
 
 // Images
 const HERO_IMG = "https://images.unsplash.com/photo-1565841327798-694bc2074762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBjb2xsYWJvcmF0aW9uJTIwbGFwdG9wJTIwY29kaW5nfGVufDF8fHx8MTc2OTg4MTU2Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
