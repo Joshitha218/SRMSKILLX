@@ -1,0 +1,48 @@
+PROMPT
+
+
+Build a COMPLETE, ERROR-FREE full-stack web app named “SRM SkillX”.
+Tech stack (FIXED):
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js + Express
+Database: SQLite
+Auth: express-session + bcrypt
+Hard rules (DO NOT BREAK):
+Allow ONLY emails ending with @srmap.edu.in
+SQL only (NO MongoDB / No NoSQL)
+Hash passwords with bcrypt
+Use environment variables
+Clean folder structure
+App must run without errors on http://localhost:3000
+Login/Register must WORK and store real data
+Features:
+Register: name, SRM email, password, year (1–4), section
+Login with session-based auth
+Protected routes (profile, search, community)
+Database tables (SQLite):
+users (id, name, email unique, password, year, section, points, level)
+skills (id, user_id, skill_name)
+goals (id, user_id, goal_text, status)
+badges (id, user_id, badge_name)
+feedback (from_user, to_user, knowledge, communication, helpfulness)
+communities (Coding, Design, Music) + user_communities
+Pages required:
+Landing, Register, Login, Profile, Skill Search, Results, Community
+Profile:
+Show user info
+Add/update skills
+Goals, badges, points, level
+Average feedback score
+Search & Matching:
+Search users by skill
+Smart match learn ↔ teach
+Prefer same/near year
+Gamification:
+Points + levels (Beginner, Contributor, Mentor)
+Output required:
+Full runnable backend + frontend code
+SQLite DB init
+.env usage
+npm install → node server.js
+NO placeholders, NO pseudo-code, NO missing files
+Do NOT simplify. Do NOT omit features.
